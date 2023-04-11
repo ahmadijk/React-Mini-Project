@@ -1,0 +1,53 @@
+
+
+.post {
+  
+    margin-top: 15%;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-title {
+    font-size: 12px;
+    /* margin: 0 0 10px; */
+  }
+  
+  .post-date {
+    margin-top: -15%;
+    font-size: 14px;
+    color: #999;
+    /* margin: 0 0 20px; */
+  }
+  
+  .post-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 90px;
+    width: 80px;
+  }
+  
+  .post-content {
+    line-height: 1;
+    font-size: 15px;
+  }
+
+  .P-blogs{
+    margin-top: 5%;
+  }
+
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .column {
+    padding: 20px;
+  }
+
+  
